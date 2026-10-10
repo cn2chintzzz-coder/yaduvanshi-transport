@@ -85,22 +85,8 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="heroVideoWrap" aria-hidden="true">
-          <video
-            className="heroVideo"
-            autoPlay
-            muted
-            loop
-            playsInline
-            preload="metadata"
-            poster="/images/yaduvanshi-poster-1.png"
-          >
-            <source src="/videos/yaduvanshi-transport.mp4" type="video/mp4" />
-          </video>
-          <div className="heroVideoOverlay" />
-          <div className="heroVideoGlow" />
-        </div>
-
+        
+        
         <div className="scrollHint">SCROLL TO EXPLORE <span>↓</span></div>
       </section>
 
